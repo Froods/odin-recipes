@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, "Times New Roman", sans-serif;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+    background-color: mediumblue;
+    color: white;
+}
+
+.button {
+    background-color: mediumblue;
+    color: white;
+    font-size: 18px;
+}
+
+img {
+    height: 600px;
+    width: auto;
+}
