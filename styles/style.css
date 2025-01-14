@@ -10,6 +10,11 @@
     color: white;
 }
 
+.header.small {
+    font-weight: 600;
+    font-size: 22px
+}
+
 .button {
     background-color: mediumblue;
     color: white;
