@@ -7,7 +7,22 @@
     font-size: 28px;
     text-align: center;
     background-color: mediumblue;
+    border: 2px solid rgb(6, 6, 173);
     color: white;
+    padding: 8px;
+    margin: 16px;
+}
+
+.sub-header {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: mediumblue;
+    color: white;
+    padding: 4px;
+    margin: 4px;
+    margin-bottom: 8px;
+    border: 2px solid rgb(6, 6, 173);
 }
 
 .header.small {
@@ -19,6 +34,25 @@
     background-color: mediumblue;
     color: white;
     font-size: 18px;
+}
+
+.recipe-container {
+    width: 30%;
+    margin: 0px auto;
+    background-color: rgb(91, 89, 236);
+    border: 2px solid rgb(6, 6, 173);
+    padding: 16px 8px;
+}
+
+.recipe-button {
+    background-color: mediumblue;
+    color: white;
+    font-size: 18px;
+    padding: 4px;
+    margin: 4px 20%;
+    border: 2px solid rgb(6, 6, 173);
+    display: block;
+    text-align: center;
 }
 
 img {
