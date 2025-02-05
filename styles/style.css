@@ -2,6 +2,10 @@
     font-family: Arial, "Times New Roman", sans-serif;
 }
 
+p, ul, li {
+    color: white;
+}
+
 .header {
     font-weight: bold;
     font-size: 28px;
@@ -27,13 +31,20 @@
 
 .header.small {
     font-weight: 600;
-    font-size: 22px
+    font-size: 22px;
+    margin: 0px;    
 }
 
 .button {
     background-color: mediumblue;
     color: white;
     font-size: 18px;
+    padding: 4px;
+    margin: 4px 95% 4px 16px;
+    margin-right: 95%;
+    border: 2px solid rgb(6, 6, 173);
+    display: block;
+    text-align: center;
 }
 
 .recipe-container {
@@ -55,7 +66,19 @@
     text-align: center;
 }
 
+.infobox {
+    background-color: rgb(91, 89, 236);
+    border: 2px solid rgb(6, 6, 173);
+    margin: 16px;
+    padding: 8px;
+}
+
 img {
     height: 600px;
     width: auto;
+    display: block;
+    background-color: rgb(91, 89, 236);
+    border: 2px solid rgb(6, 6, 173);
+    padding: 24px 28px;
+    margin: 4px auto;
 }
